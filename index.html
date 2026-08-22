@@ -1,29 +1,114 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Para você</title>
+    <title>Para você, pai.</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <main>
-        <h1>Talvez seja mais fácil programar do que conversar.</h1>
+    <!-- PRIMEIRA TELA -->
 
-        <audio controls>
-            <source src="asset.m4a" type="audio/mp4">
-        </audio>
+    <main class="hero">
 
-        <button onclick="entrarNoSite()">
-            continuar ↓
-        </button>
+        <div class="decor decor-1"></div>
+        <div class="decor decor-2"></div>
+
+        <div class="hero-content">
+
+            <span class="number">01</span>
+
+            <p class="eyebrow">
+                uma mensagem que eu não consegui dizer
+            </p>
+
+            <h1>
+                para você,<br>
+                <span>pai.</span>
+            </h1>
+
+            <div class="line"></div>
+
+            <p class="subtitle">
+                Talvez seja mais fácil programar
+                do que conversar.
+            </p>
+
+
+            <!-- ÁUDIO -->
+
+            <div class="audio-box">
+
+                <span class="audio-label">
+                    uma coisa que eu queria te dizer
+                </span>
+
+                <audio controls class="audio-player">
+                    <source src="asset.m4a" type="audio/mp4">
+
+                    Seu navegador não suporta áudio.
+                </audio>
+
+            </div>
+
+
+            <!-- BOTÃO -->
+
+            <button onclick="entrarNoSite()">
+                continuar
+                <span>↓</span>
+            </button>
+
+        </div>
+
     </main>
+
+
+
+    <!-- SEGUNDA PARTE -->
+
+    <section id="conteudo" class="content">
+
+        <div class="content-card">
+
+            <span class="number">02</span>
+
+            <p class="eyebrow">
+                agora, de verdade
+            </p>
+
+            <h2>
+                Eu não sei muito bem
+                por onde começar.
+            </h2>
+
+            <p>
+                Faz um tempo que a gente está afastado.
+            </p>
+
+            <p>
+                E existem algumas coisas que eu gostaria
+                que você soubesse.
+            </p>
+
+            <p>
+                Talvez eu nunca consiga falar tudo isso
+                pessoalmente.
+            </p>
+
+        </div>
+
+    </section>
+
+
 
     <script src="script.js"></script>
 
 </body>
+
 </html>
